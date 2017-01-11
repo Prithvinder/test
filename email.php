@@ -1,7 +1,7 @@
 <?php $to = "test@test.com"; 
-$subject = "Testing Email Spoofing"; 
+$siubject = "Testing Email Spoofing"; 
 $txt = ""; 
 $headers = "From:test@gmail.com"; 
 mail($to,$subject,$txt,$headers); 
-echo "done";
+echo "sent";
 ?>
